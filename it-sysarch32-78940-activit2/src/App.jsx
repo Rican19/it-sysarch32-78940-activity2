@@ -1,17 +1,17 @@
-
-import './App.css'
-import Header from './Header'
 import Footer from './Footer'
-
+import Header from './Header'
+import Card from './Card'
+import './App.css'
 
 function App() {
 
   return (
     <>
-      <Header/>
-      <Footer/>
+        <Header/>
+        <Card/>
+        <Footer/>
     </>
-  )
+  );
 }
 
 export default App
