@@ -1,22 +1,17 @@
 function Header(){
-return(
-
-  <header>
-    <h1>Rican Manguilimotan</h1>
-      <nav>
-        <ul>
-        
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Service</a></li>
-                        <li><a href="#">Contact</a></li>
-            
-        </ul>
-      </nav>
-    </header>
-
-);
-
+  return(
+          <header id="container-menu">
+              <nav>
+                  <ul className="container-link">
+                      <li className="container-logo">Rican Manguilimotan</li>
+                      <li className="container-item">Home</li>
+                      <li className="container-item">About</li>
+                      <li className="container-item">Service</li>
+                      <li className="container-item">Contact</li>
+                  </ul>
+              </nav>
+          </header>
+  );
 }
 
 export default Header
